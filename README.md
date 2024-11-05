@@ -2,8 +2,8 @@
 
 A ready-to-use boilerplate for building Web3 Telegram Mini Apps.
 This tech stack includes:
-- [React](https://react.dev/)
-- [Wagmi](https://wagmi.sh/)
+- [React](https://react.dev/) + [Express](https://expressjs.com/)
+- [Wagmi](https://wagmi.sh/) + [WalletConnect](https://reown.com/)
 - [TON Connect](https://docs.ton.org/develop/dapps/ton-connect/overview)
 - [@telegram-apps SDK](https://docs.telegram-mini-apps.com/packages/telegram-apps-sdk/2-x)
 - [Telegram UI](https://tgui.xelene.me/?path=/docs/getting-started--documentation)
