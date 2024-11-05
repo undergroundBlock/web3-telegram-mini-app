@@ -1,0 +1,55 @@
+{
+  "name": "web3-telegram-mini-app",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "@tanstack/react-query": "5.56.2",
+    "@telegram-apps/sdk-react": "2.0.7",
+    "@telegram-apps/telegram-ui": "2.1.5",
+    "@testing-library/jest-dom": "5.17.0",
+    "@testing-library/react": "13.4.0",
+    "@testing-library/user-event": "13.5.0",
+    "@tonconnect/ui-react": "2.0.5",
+    "@wagmi/core": "2.13.7",
+    "@web3modal/wagmi": "5.1.9",
+    "express": "4.21.0",
+    "express-async-errors": "3.1.1",
+    "helmet": "8.0.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-router-dom": "6.26.2",
+    "react-scripts": "5.0.1",
+    "viem": "2.21.40",
+    "wagmi": "2.12.14"
+  },
+  "scripts": {
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "dev": "GENERATE_SOURCEMAP=false react-scripts start",
+    "start": "node server.js",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  }
+}
