@@ -17,7 +17,7 @@ const App = () => {
   const lp = useLaunchParams()
 
   // Wallet-connect is incompatible with Telegram mini apps
-  // We should deep-links for wallets
+  // We should use deep-links for wallets
   const overrideWindowOpen = useCallback(() => {
     window.open = (url) => {
       try {
