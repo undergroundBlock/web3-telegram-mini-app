@@ -35,7 +35,7 @@ This project contains the following scripts:
 - Trust Wallet
 - TONConnect
 
-Note: Deep link support is implemented for common wallets and can be extended in [`App.js`](https://github.com/kevinb1003/test-tg-mini-app/blob/master/src/App.js#L21-L59):
+Note: Deep link support is implemented for common wallets and can be extended in [`App.js`](https://github.com/kevinb1003/web3-telegram-mini-app/master/src/App.js#L21-L59):
 
 - `bitkeep://`
 - `metamask://`
