@@ -1,7 +1,7 @@
 # Web3 Telegram Mini App Boilerplate
 
 A ready-to-use boilerplate for building Web3 Telegram Mini Apps.
-
+This tech stack includes:
 - [React](https://react.dev/)
 - [Wagmi](https://wagmi.sh/)
 - [TON Connect](https://docs.ton.org/develop/dapps/ton-connect/overview)
