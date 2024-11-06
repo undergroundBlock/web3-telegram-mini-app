@@ -20,7 +20,7 @@ app.get(/^(?!.*(js|json|svg|png|jpg)).*$/, (req, res) =>
   res.sendFile(staticIndex)
 )
 
-app.use((err, req, res) => {
+app.use((err, req, res, next) => {
   console.log(err)
   return res
     .status(500)
